@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="km">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZOO-Launcher News</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f2f2f7; color: #1c1c1e; padding: 20px; line-height: 1.6; }
+        .container { max-width: 700px; margin: 0 auto; background: white; border-radius: 20px; padding: 30px 25px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); }
+        .header { text-align: center; margin-bottom: 25px; }
+        .logo { width: 80px; height: 80px; border-radius: 20px; background: #8B00FF; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-size: 40px; font-weight: 800; color: white; }
+        h1 { font-size: 28px; font-weight: 700; color: #1c1c1e; }
+        .version { font-size: 16px; color: #8e8e93; margin-bottom: 8px; }
+        .sub { font-size: 14px; color: #8e8e93; margin-bottom: 20px; }
+        .divider { height: 1px; background: #e5e5ea; margin: 20px 0; }
+        .changelog-item { background: #f8f8fc; border-radius: 12px; padding: 16px 18px; margin-bottom: 12px; border-left: 4px solid #8B00FF; }
+        .changelog-item h2 { font-size: 18px; font-weight: 600; color: #1c1c1e; margin-bottom: 4px; }
+        .changelog-item .date { font-size: 13px; color: #8e8e93; margin-bottom: 6px; }
+        .changelog-item ul { list-style: none; padding-left: 0; }
+        .changelog-item ul li { padding: 4px 0 4px 20px; position: relative; font-size: 15px; color: #3a3a3c; }
+        .changelog-item ul li::before { content: "•"; color: #8B00FF; font-weight: bold; position: absolute; left: 0; }
+        .footer { text-align: center; font-size: 13px; color: #8e8e93; margin-top: 20px; padding-top: 15px; border-top: 1px solid #e5e5ea; }
+        .footer a { color: #8B00FF; text-decoration: none; }
+        .badge { display: inline-block; background: #8B00FF; color: white; font-size: 12px; padding: 2px 12px; border-radius: 20px; font-weight: 500; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">Z</div>
+            <h1>ZOO-Launcher</h1>
+            <div class="version">Version 1.0</div>
+            <div class="sub">Developed by <strong>KingJully</strong> • iOS 18+</div>
+            <span class="badge">✨ Custom Build</span>
+        </div>
+        <div class="divider"></div>
+        <div class="changelog">
+            <div class="changelog-item">
+                <h2>🎮 ZOO-Launcher v1.0</h2>
+                <div class="date">Released July 2026</div>
+                <ul>
+                    <li>Custom branding with <strong>ZOO-Launcher</strong> identity</li>
+                    <li>Integrated Discord Webhook for user activity tracking</li>
+                    <li>Optimized renderer for iPhone 11 / iOS 18</li>
+                    <li>Khmer language support in UI</li>
+                    <li>Full IPA with bundled JRE (no extra downloads)</li>
+                </ul>
+            </div>
+            <div class="changelog-item">
+                <h2>🐛 Bug Fixes</h2>
+                <div class="date">Stability improvements</div>
+                <ul>
+                    <li>Fixed ANGLE/EGL initialization errors on iOS 18</li>
+                    <li>Resolved Jetsam memory limit issues (deadzone 2048-4096 MB)</li>
+                    <li>Improved fallback renderer selection</li>
+                </ul>
+            </div>
+            <div class="changelog-item">
+                <h2>🚀 Coming Soon</h2>
+                <div class="date">Future plans</div>
+                <ul>
+                    <li>Auto-update checker</li>
+                    <li>Custom control profiles</li>
+                    <li>More performance optimizations</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            ZOO-Launcher • Built with ❤️ by KingJully<br>
+            <a href="#">GitHub</a> • <a href="#">Discord</a>
+        </div>
+    </div>
+</body>
+</html>
